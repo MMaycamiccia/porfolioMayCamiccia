@@ -1,18 +1,22 @@
 .body {
-   
-    background-image: url("../Image/About.png");
-    background-size: cover;
+  background-image: url("../Image/About.png");
+  background-size: cover;
   background-position: center;
   color: rgb(0, 0, 0); 
   height: 96vh;
   width: 95vw;
   display: flex;
   background-repeat: no-repeat;
-   top: 0%;
+  top: 0%;
   left: 0%;
+}
 
-    }
-
-
-
-    
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 480px) {
+  .body {
+    height: auto; /* Ajusta la altura automáticamente */
+    width: 100%;
+    display: block; /* Cambia a un diseño de bloque en pantallas más pequeñas */
+    padding-top: 400px;
+  }
+}

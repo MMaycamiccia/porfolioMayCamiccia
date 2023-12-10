@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar';
 function Home() {
   const handleDownloadCV = () => {
 
-   const cvFileUrl = '../Image/cv.png';
+   const cvFileUrl = "/cv.png";
 
    
     const link = document.createElement('a');

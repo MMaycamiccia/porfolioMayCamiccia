@@ -1,3 +1,6 @@
+
+
+/* Estilos para pantallas mayores a 480px */
 .navBar {
     padding-inline: 20px;
     width: 25px; 
@@ -16,25 +19,44 @@
     position: fixed;
     bottom: 310px;
     color: #eef2f5;
-
 }
 
 .gmail {
     position: fixed;
     bottom: 210px;
     color: #f3efee; 
-  }
+}
 
-  .wsp {
+.wsp {
     position: fixed;
     bottom: 260px;
     color: #f4f7f5; 
-  }
+}
 
-  .home {
+.home {
     position: fixed;
     bottom: 550px;
     color: #f3efee; 
     font-size: 30px;
+}
 
-  }
+/* Media Query para pantallas de 480px o menos */
+@media (max-width: 482px) {
+    .navBar {
+        width: 100%; /* O ajusta el ancho según sea necesario */
+        padding: 10px; /* Ajusta el padding según sea necesario */
+        height: auto; /* Ajusta la altura automáticamente */
+        flex-direction: row; /* Cambia la dirección del flexbox */
+        justify-content: space-around; /* Ajusta el espacio entre los elementos */
+    }
+
+    .icono,
+    .gmail,
+    .wsp,
+    .home {
+        position: static; /* Restaura el posicionamiento a estático para que los elementos fluyan */
+        bottom: auto;
+        margin-bottom: 10px; /* Ajusta el margen según sea necesario */
+        font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+}

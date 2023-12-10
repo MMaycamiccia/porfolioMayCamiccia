@@ -1,38 +1,51 @@
 
-
 .contenedor {
   display: flex;
   padding: 10px;
   border-radius: 10px;
-    margin: 20px; /* Ajusta el margen entre los iconos según tus preferencias */
- /* Ajusta el radio de los bordes según tus preferencias */
-   justify-content: flex-end; /* Alinea los elementos al final (parte inferior) del eje principal */
-   margin-top: 3%;
-   margin-left: 9%;
-   align-items: center;
-
+  margin: 20px;
+  justify-content: flex-end;
+  margin-top: 3%;
+  margin-left: 9%;
+  align-items: center;
 }
 
 .icono {
-  color: #0c0909; /* Cambia el color del icono según tus preferencias */
-  margin: 10px; /* Ajusta el margen entre los iconos según tus preferencias */
-    justify-content: center; /* Alinea los elementos al final (parte inferior) del eje principal */
-    align-items: center;
-    background-color:#ffffff;
-    border-radius: 20%; /* esto hace que el borde sea redondo, ya que se establece en el 50% del ancho/altura */
-display: flex;
-margin-left: 8px; /* Espacio entre el margen izquierdo y el contenedor */
+  color: #0c0909;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20%;
+  display: flex;
+  margin-left: 8px;
   font-size: 18px;
-
 }
 
 .texto {
-margin-left: 5%;
-font-family: 'Courier New', Courier, monospace;
-font-size: large;
-  color:#ffffff;
+  margin-left: 5%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color: #ffffff;
 }
 
 .icono-contenedor {
-  margin-left: 25px; /* Espacio entre el margen izquierdo y el contenedor */
+  margin-left: 25px;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 488px) {
+  .contenedor {
+    flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    align-items: flex-start; /* Alinea los elementos al inicio del eje principal */
+    margin-left: 15%; /* Ajusta el margen izquierdo según tus preferencias */
+  }
+
+  .icono {
+    margin: 10px 0; /* Ajusta el margen entre los iconos en modo vertical */
+  }
+
+  .icono-contenedor {
+    margin-left: 10px; /* Elimina el margen izquierdo en dispositivos móviles */
+  }
 }
