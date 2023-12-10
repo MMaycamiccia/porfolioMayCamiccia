@@ -7,7 +7,7 @@ const Proyectos = () => {
     const videos = [
       {
         nombre: "Desing Black",
-        url: "../../../public/desingblack.mp4",
+        url: "/desingblack.mp4",
         descripcion: "Proyecto Final realizado en el marco del BootCamp Henry",
 
       },
