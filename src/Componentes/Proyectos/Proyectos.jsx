@@ -13,7 +13,7 @@ const Proyectos = () => {
       },
       {
         nombre: 'Drivers',
-        url: "../../../public/drivers.mp4",
+        url: "/drivers.mp4",
         descripcion: "Mi primer proyecto realizado en el marco del BootCamp Henry",
 
       },
