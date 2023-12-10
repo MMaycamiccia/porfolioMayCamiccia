@@ -14,7 +14,9 @@ const NavBar = () => {
 <Link to="/" className={style.home}>
         <IoHomeOutline />
       </Link>
-
+ <Link to="/formularioMail" className={style.gmail}> 
+        <FaEnvelope size={32} />
+      </Link>
 
 <a     
       href="https://www.linkedin.com/in/mayracamiccia"
@@ -24,14 +26,7 @@ const NavBar = () => {
     >
       <FaLinkedin size={32} />
     </a>
-    <a
-      href="mayraacamiccia@gmail.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className={style.gmail}
-    >
-      <FaEnvelope size={32} />
-    </a>
+    
 
     <a
       href="https://wa.me/1164940892" 

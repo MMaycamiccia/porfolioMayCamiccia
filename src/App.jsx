@@ -4,7 +4,7 @@ import About from "./Componentes/About/About";
 import NavBar from "./Componentes/NavBar/NavBar";
 import Tecnologias from "./Componentes/Tecnologias/Tecnologias"
 import Proyectos from "./Componentes/Proyectos/Proyectos"
-
+import Formularios from "./Componentes/Formularios/FormularioMail"
 function App() {
   const location = useLocation();
 
@@ -18,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/tecnologias" element={<Tecnologias />} />
         <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/formularioMail" element={<Formularios />} />
 
    </Routes>
     </div>
