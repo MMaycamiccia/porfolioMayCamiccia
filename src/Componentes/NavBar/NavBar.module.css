@@ -1,0 +1,40 @@
+.navBar {
+    padding-inline: 20px;
+    width: 25px; 
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url("../Image/3.avif");
+}
+
+.icono {
+    position: fixed;
+    bottom: 310px;
+    color: #eef2f5;
+
+}
+
+.gmail {
+    position: fixed;
+    bottom: 210px;
+    color: #f3efee; 
+  }
+
+  .wsp {
+    position: fixed;
+    bottom: 260px;
+    color: #f4f7f5; 
+  }
+
+  .home {
+    position: fixed;
+    bottom: 550px;
+    color: #f3efee; 
+    font-size: 30px;
+
+  }

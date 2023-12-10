@@ -1,0 +1,124 @@
+.body {
+   
+    background-image: url("../Image/Home.png");
+    background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0); /* Cambia esto según tus necesidades */
+  height: 96vh;
+  width: 95vw;
+  display: flex;
+  background-repeat: no-repeat;
+   top: 0%;
+  left: 0%;
+
+    }
+
+.button {
+  background-image: url(../Image/3.avif);
+  color:#fff;
+  border:5%;
+  border-color: #f5eef1;
+  position:relative;
+  height:40px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  justify-content: right;
+  align-items: right;
+   position: fixed; /* También puedes usar 'absolute' dependiendo del caso */
+  bottom: 30px; /* Ajusta según sea necesario */
+  right: 230px;
+  font-weight: bold; /* Esto hace que el texto esté en negrita */
+    font-size: 16px;
+    padding: 10px 20px;
+ 
+}
+button:hover{
+  background:#D1237A;
+  color:rgb(237, 243, 242);
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #fafafa;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:80%;
+  transition:800ms ease all;
+}
+
+.button1 {
+  background-image: url(../Image/3.avif);
+  color:#fff;
+  border:5%;
+  border-color: #f5eef1;
+  position:relative;
+  height:40px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  justify-content: left;
+  align-items: left;
+   position: fixed; /* También puedes usar 'absolute' dependiendo del caso */
+  bottom: 90px; /* Ajusta según sea necesario */
+  left: 160px;
+  font-weight: bold; /* Esto hace que el texto esté en negrita */
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.button2{
+  background-image: url(../Image/3.avif);
+  color:#fff;
+  border:5%;
+  border-color: #f5eef1;
+  position:relative;
+  height:40px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  justify-content: left;
+  align-items: left;
+   position: fixed; /* También puedes usar 'absolute' dependiendo del caso */
+  bottom: 170px; /* Ajusta según sea necesario */
+  left: 380px;
+  font-weight: bold; /* Esto hace que el texto esté en negrita */
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.button4 {
+  background-image: url(../Image/3.avif);
+  color:#fff;
+  border:5%;
+  border-color: #f5eef1;
+  position:relative;
+  height:40px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  justify-content: right;
+  align-items: right;
+   position: fixed; /* También puedes usar 'absolute' dependiendo del caso */
+  bottom: 110px; /* Ajusta según sea necesario */
+  right: 280px;
+  font-weight: bold; /* Esto hace que el texto esté en negrita */
+    font-size: 16px;
+    padding: 10px 20px;
+ 
+}

@@ -1,0 +1,38 @@
+
+
+.contenedor {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+    margin: 20px; /* Ajusta el margen entre los iconos según tus preferencias */
+ /* Ajusta el radio de los bordes según tus preferencias */
+   justify-content: flex-end; /* Alinea los elementos al final (parte inferior) del eje principal */
+   margin-top: 3%;
+   margin-left: 9%;
+   align-items: center;
+
+}
+
+.icono {
+  color: #0c0909; /* Cambia el color del icono según tus preferencias */
+  margin: 10px; /* Ajusta el margen entre los iconos según tus preferencias */
+    justify-content: center; /* Alinea los elementos al final (parte inferior) del eje principal */
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 20%; /* esto hace que el borde sea redondo, ya que se establece en el 50% del ancho/altura */
+display: flex;
+margin-left: 8px; /* Espacio entre el margen izquierdo y el contenedor */
+  font-size: 18px;
+
+}
+
+.texto {
+margin-left: 5%;
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+  color:#ffffff;
+}
+
+.icono-contenedor {
+  margin-left: 25px; /* Espacio entre el margen izquierdo y el contenedor */
+}
