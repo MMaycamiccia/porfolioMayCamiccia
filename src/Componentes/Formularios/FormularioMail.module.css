@@ -6,14 +6,14 @@
 }
 
 .formContainer {
-  padding: 30px;
-  width: 500px;
+  margin-top: -99px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-  background-color: rgba(217, 217, 217, 0.482); /*color del contenedor*/
-  border: 2px solid rgba(250, 22, 22, 0.089);
+  margin-left: 380px;
+ background-color: rgb(3, 0, 0);
+  border: 2px solid rgba(252, 242, 242, 0.945);
   border-radius: 8px; /*8px*/
 }
 
@@ -31,7 +31,7 @@
 
 .column {
   flex: 1;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .inputs {
@@ -49,10 +49,13 @@
   margin-left: 1px;
   width: 200px;
 }
-/* .Mensaje textarea {
-  position: relative;
-  width: 324567px;
-} */
+
+.Mensaje {
+
+   margin-right: 80px;
+
+} 
+
 .localidad {
   position: relative;
   margin-left: 0px;
@@ -68,7 +71,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 15px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .column button:hover {
@@ -98,4 +101,16 @@
   transition: 0.8s;
 }
 
-  
+
+.texto {
+  color: white;
+  margin: 18px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 400px;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  margin-top: 20px;
+}

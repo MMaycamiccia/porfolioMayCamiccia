@@ -4,8 +4,6 @@ import styles from "../Formularios/FormularioMail.module.css";
 import Swal from "sweetalert2";
 import axios from "axios";
 
-import InputMask from "react-input-mask";
-
 function FormularioMail() {
   const [formData, setFormData] = useState({
     Destinatario: "mayraacamiccia@gmail.com",
@@ -102,7 +100,13 @@ function FormularioMail() {
   }
 };
      return (
-    <>
+    <> 
+    <div className={styles.texto}> 
+    <h1>
+     Tambien podes contactarme por Whatsapp y Linkedin       
+
+    </h1>
+    </div>
       <div className={styles.containerFor}>
         <div className={styles.formContainer}>
           <div className={styles.contain}>
@@ -169,7 +173,7 @@ function FormularioMail() {
                       value={formData.Mensaje}
                       onChange={handleChange}
                       placeholder="Mensaje"
-                      rows="4"
+                      rows="9"
                       required
                       className={styles.inputs}
                     />

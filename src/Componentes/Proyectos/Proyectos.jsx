@@ -5,18 +5,18 @@ import ReactPlayer from 'react-player';
 
 const Proyectos = () => {
     const videos = [
+       {
+        nombre: 'Drivers',
+        url: "/drivers.mp4",
+        descripcion: "Mi primer proyecto realizado llamado Drivers."
+      },
       {
         nombre: "Desing Black",
         url: "/desingblack.mp4",
-        descripcion: "Proyecto Final realizado en el marco del BootCamp Henry",
+        descripcion: "Proyecto realizado en equipo con  6  (seis) personas."
 
       },
-      {
-        nombre: 'Drivers',
-        url: "/drivers.mp4",
-        descripcion: "Mi primer proyecto realizado en el marco del BootCamp Henry",
-
-      },
+     
     ];
   
     return (
