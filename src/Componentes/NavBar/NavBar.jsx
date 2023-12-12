@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className={style.navBar}>
 
-<Link to="/" className={style.home}>
+<Link to="/home"  className={style.home}>
         <IoHomeOutline />
       </Link>
  <Link to="/formularioMail" className={style.gmail}> 
