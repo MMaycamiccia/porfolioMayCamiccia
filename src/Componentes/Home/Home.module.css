@@ -11,6 +11,8 @@
   left: 0%;
 }
 
+
+
 /* Media Query para dispositivos móviles */
 @media (max-width: 480px) {
   .body {
@@ -50,12 +52,13 @@
 
 .button2 {
   bottom: 170px;
-  left: 380px;
+  left: 340px;
 }
 
 .button4 {
-  bottom: 110px;
-  right: 280px;
+  bottom: 100px;
+  right: 248px;
+  top:74%;
 }
 
 /* Media Query para ajustar posición de los botones en dispositivos móviles */
