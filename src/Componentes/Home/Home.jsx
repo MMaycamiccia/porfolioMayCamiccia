@@ -5,12 +5,12 @@ import NavBar from '../NavBar/NavBar';
 function Home() {
   const handleDownloadCV = () => {
 
-   const cvFileUrl = "/cv.png";
+   const cvFileUrl = "/CamicciaMayra-Cv.pdf";
 
    
     const link = document.createElement('a');
     link.href = cvFileUrl;
-    link.download = 'Cv-CamicciaMayra.png'; 
+    link.download = 'CamicciaMayra-Cv.pdf'; 
     document.body.appendChild(link);
 
     link.click();
